@@ -51,8 +51,6 @@ const FormValidation = () => {
   const validate = () => {
     const newErrors = {};
     
-    // Using formData from outer scope
-    
     // TODO: Validate name
     // HINT: if (!formData.name) newErrors.name = 'Name is required'
     // HINT: else if (formData.name.length < 3) newErrors.name = 'Name must be at least 3 characters'

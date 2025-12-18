@@ -54,7 +54,7 @@ const ProfileCard = ({ avatar, name, bio, twitter, linkedin, github, onFollow })
       
       {/* TODO: Add follow button */}
       {/* HINT: Call onFollow when button is clicked */}
-      <button onClick={/* TODO: Add onClick handler */}>
+      <button onClick={onFollow}>
         Follow
       </button>
     </div>
