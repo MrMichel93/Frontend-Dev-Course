@@ -26,30 +26,32 @@ const Counter = () => {
   
   // TODO: Implement increment function
   const increment = () => {
-    // TODO: Increase count by 1
-    // HINT: setCount(count + 1)
+    // TODO: Complete the implementation
+    setCount(count + 1);
   };
   
   // TODO: Implement decrement function
   const decrement = () => {
-    // TODO: Decrease count by 1, but don't go below 0
-    // HINT: Use Math.max(0, count - 1) or conditional
+    // TODO: Ensure count doesn't go below 0
+    setCount(Math.max(0, count - 1));
   };
   
   // TODO: Implement incrementByFive function
   const incrementByFive = () => {
-    // TODO: Increase count by 5
+    // TODO: Complete the implementation
+    setCount(count + 5);
   };
   
   // TODO: Implement decrementByFive function
   const decrementByFive = () => {
-    // TODO: Decrease count by 5, but don't go below 0
-    // HINT: Use Math.max(0, count - 5)
+    // TODO: Ensure count doesn't go below 0
+    setCount(Math.max(0, count - 5));
   };
   
   // TODO: Implement reset function
   const reset = () => {
-    // TODO: Set count back to 0
+    // TODO: Complete the implementation
+    setCount(0);
   };
   
   return (

@@ -31,7 +31,7 @@ import React from 'react';
 
 // TODO: Implement ProfileCard component
 // HINT: Use destructuring in function parameters
-const ProfileCard = (/* TODO: Add props here */) => {
+const ProfileCard = ({ avatar, name, bio, twitter, linkedin, github, onFollow }) => {
   return (
     <div className="profile-card">
       {/* TODO: Add avatar image */}

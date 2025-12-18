@@ -20,32 +20,32 @@ const employees = [
 
 // 1. Get all Engineering employees
 // HINT: Use .filter() method
-const engineeringEmployees = /* YOUR CODE HERE */;
+const engineeringEmployees = []; // TODO: YOUR CODE HERE
 console.log('Engineering employees:', engineeringEmployees);
 
 // 2. Get names of employees making over $100k
 // HINT: Use .filter() then .map()
-const highEarners = /* YOUR CODE HERE */;
+const highEarners = []; // TODO: YOUR CODE HERE
 console.log('High earners:', highEarners);
 
 // 3. Calculate total salary for all employees
 // HINT: Use .reduce() method
-const totalSalary = /* YOUR CODE HERE */;
+const totalSalary = 0; // TODO: YOUR CODE HERE
 console.log('Total salary:', totalSalary);
 
 // 4. Find employee with id 3
 // HINT: Use .find() method
-const employee = /* YOUR CODE HERE */;
+const employee = null; // TODO: YOUR CODE HERE
 console.log('Employee with id 3:', employee);
 
 // 5. Check if any employee makes over $120k
 // HINT: Use .some() method
-const hasSixFigure = /* YOUR CODE HERE */;
+const hasSixFigure = false; // TODO: YOUR CODE HERE
 console.log('Any employee over $120k?', hasSixFigure);
 
 // 6. Get average salary for Engineering department
 // HINT: Filter for Engineering, then calculate average
-const avgEngineeringSalary = /* YOUR CODE HERE */;
+const avgEngineeringSalary = 0; // TODO: YOUR CODE HERE
 console.log('Average Engineering salary:', avgEngineeringSalary);
 
 

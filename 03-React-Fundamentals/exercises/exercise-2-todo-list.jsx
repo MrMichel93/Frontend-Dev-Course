@@ -25,14 +25,14 @@ import React, { useState } from 'react';
 const TodoList = () => {
   // TODO: Add state for todos array
   // HINT: Initialize as empty array []
-  const [todos, setTodos] = useState(/* TODO: Initial state */);
+  const [todos, setTodos] = useState([]);
   
   // TODO: Add state for input value
-  const [input, setInput] = useState(/* TODO: Initial state */);
+  const [input, setInput] = useState('');
   
   // TODO: Add state for filter
   // HINT: Initial value should be 'all'
-  const [filter, setFilter] = useState(/* TODO: Initial state */);
+  const [filter, setFilter] = useState('all');
   
   // TODO: Implement handleSubmit function
   // This should:

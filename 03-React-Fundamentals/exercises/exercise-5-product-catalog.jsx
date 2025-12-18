@@ -43,19 +43,29 @@ const ProductCatalog = () => {
   const getFilteredAndSortedProducts = () => {
     let result = [...products];
     
-    // TODO: Filter by search query
-    // HINT: result = result.filter(product => 
-    //   product.name.toLowerCase().includes(searchQuery.toLowerCase())
-    // )
+    // TODO: Enhance filtering logic
+    // Filter by search query
+    if (searchQuery) {
+      result = result.filter(product => 
+        product.name.toLowerCase().includes(searchQuery.toLowerCase())
+      );
+    }
     
-    // TODO: Filter by category
-    // HINT: if (categoryFilter !== 'all') { ... }
+    // TODO: Enhance category filtering
+    // Filter by category
+    if (categoryFilter !== 'all') {
+      result = result.filter(product => product.category === categoryFilter);
+    }
     
-    // TODO: Sort based on sortBy
-    // HINT: Use switch/if statements
-    // - 'name': sort alphabetically
-    // - 'price-low': sort by price ascending
-    // - 'price-high': sort by price descending
+    // TODO: Enhance sorting logic
+    // Sort based on sortBy
+    if (sortBy === 'price-low') {
+      result.sort((a, b) => a.price - b.price);
+    } else if (sortBy === 'price-high') {
+      result.sort((a, b) => b.price - a.price);
+    } else {
+      result.sort((a, b) => a.name.localeCompare(b.name));
+    }
     
     return result;
   };

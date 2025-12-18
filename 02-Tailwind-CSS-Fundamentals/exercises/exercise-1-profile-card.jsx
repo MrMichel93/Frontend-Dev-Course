@@ -27,7 +27,9 @@ import React from 'react';
 
 const ProfileCard = () => {
   return (
-    <div className="/* TODO: Add your Tailwind classes here */">
+    <div className="profile-card-container">
+      {/* TODO: Add your Tailwind classes to this div */}
+      {/* HINT: Try bg-white rounded-lg shadow-lg p-6 max-w-sm mx-auto */}
       {/* TODO: Add avatar image */}
       {/* HINT: Use rounded-full for circular image */}
       <img 
