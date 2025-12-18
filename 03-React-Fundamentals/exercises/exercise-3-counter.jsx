@@ -22,7 +22,7 @@ import React, { useState } from 'react';
 const Counter = () => {
   // TODO: Add state for count
   // HINT: Initialize to 0
-  const [count, setCount] = useState(/* TODO: Initial value */);
+  const [count, setCount] = useState(0); // TODO: This is initialized - implement the functions below
   
   // TODO: Implement increment function
   const increment = () => {
@@ -59,33 +59,33 @@ const Counter = () => {
       {/* TODO: Display current count */}
       {/* HINT: Use large, bold text */}
       <div className="count-display">
-        <h2>{/* TODO: Display count */}</h2>
+        <h2>{count}</h2>
       </div>
       
       {/* TODO: Add control buttons */}
       <div className="controls">
         {/* TODO: Add increment by 1 button */}
-        <button onClick={/* TODO: Add handler */}>
+        <button onClick={increment}>
           +1
         </button>
         
         {/* TODO: Add decrement by 1 button */}
-        <button onClick={/* TODO: Add handler */}>
+        <button onClick={decrement}>
           -1
         </button>
         
         {/* TODO: Add increment by 5 button */}
-        <button onClick={/* TODO: Add handler */}>
+        <button onClick={incrementByFive}>
           +5
         </button>
         
         {/* TODO: Add decrement by 5 button */}
-        <button onClick={/* TODO: Add handler */}>
+        <button onClick={decrementByFive}>
           -5
         </button>
         
         {/* TODO: Add reset button */}
-        <button onClick={/* TODO: Add handler */}>
+        <button onClick={reset}>
           Reset
         </button>
       </div>

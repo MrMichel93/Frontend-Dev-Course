@@ -67,8 +67,9 @@ const ThemeSwitcher = () => {
   
   // TODO: Implement toggleTheme function
   const toggleTheme = () => {
-    // TODO: Switch between 'light' and 'dark'
-    // HINT: setTheme(theme === 'light' ? 'dark' : 'light')
+    // TODO: Enhance this by saving to localStorage
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme);
     
     // TODO (Bonus): Save to localStorage
     // localStorage.setItem('theme', newTheme)

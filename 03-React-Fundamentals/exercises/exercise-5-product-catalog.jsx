@@ -62,8 +62,9 @@ const ProductCatalog = () => {
   
   // TODO: Implement handleAddToCart function
   const handleAddToCart = (product) => {
-    // TODO: Log or show alert (for now)
-    // HINT: console.log('Added to cart:', product.name)
+    // TODO: Enhance this with actual cart functionality
+    console.log('Added to cart:', product.name);
+    alert(`Added ${product.name} to cart!`);
   };
   
   // Get filtered products

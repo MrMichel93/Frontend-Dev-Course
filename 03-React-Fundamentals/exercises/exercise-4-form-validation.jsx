@@ -38,10 +38,12 @@ const FormValidation = () => {
     const { name, value } = e.target;
     
     // TODO: Update formData for the changed field
-    // HINT: setFormData({ ...formData, [name]: value })
+    setFormData({ ...formData, [name]: value });
     
     // TODO: Clear error for this field
-    // HINT: setErrors({ ...errors, [name]: '' })
+    if (errors[name]) {
+      setErrors({ ...errors, [name]: '' });
+    }
   };
   
   // TODO: Implement validate function
