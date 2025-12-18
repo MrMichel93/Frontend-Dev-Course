@@ -181,7 +181,7 @@ function Component({ name }) {
 <Component items={[1, 2, 3]} />
 
 // Functions
-<Component onCl ick={() => alert('Clicked')} />
+<Component onClick={() => alert('Clicked')} />
 ```
 
 ## Common Patterns
